@@ -1,0 +1,104 @@
+/*Autor: Vitor Ferreira Alves*/
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin:unset;
+}
+
+p {
+    padding: 10px;
+}
+
+h1{
+    text-align:center;
+    color:greenyellow;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+h2{
+    font-size:22px;
+}
+
+#tudo {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/*LOGO*/
+#logo {
+    float: left;
+    height: 150px;
+    width: 100%;
+    background-image:url("../Wood Planks.jpg");
+    background-repeat:no-repeat;
+   
+}
+.imgcentro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*FIM LOGO*/
+
+
+/*MENU*/
+#menu ul{
+    float: left;
+    height: 100%;
+    min-height:50px;
+    width: 100%;
+    background:;
+    list-style: none;
+    margin:0px auto;
+    padding:unset;
+    text-align:center;
+    background-image:url("../bg22.jpg");
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;    
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    font-size:20px !important;
+    padding:17px 15px;
+    color:white;
+    display: inline-block;
+    text-decoration:none;
+}
+
+#menu ul li a:hover {
+    background-color:white;
+    color:greenyellow;
+}
+/*FIM MENU*/
+
+
+/*Conteudo*/
+#conteudo {
+    float: left;
+    position: relative;
+    background: #FFFFFF;
+    width:;
+    margin-left:50px;
+    margin-right:50px;
+    text-align:justify;
+}
+
+#listaporque{
+    float:left;
+    margin-right:35px;
+}
+
+/*rodape !!!*/
+#rodape {
+    min-height: 40px;
+    width: 100%;
+    background-color:greenyellow;
+    clear: both;
+}
+
